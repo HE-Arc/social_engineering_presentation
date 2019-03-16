@@ -15,17 +15,17 @@
 
 /* Title */
 .title {
-  color: $purple !important;
+  color: $darker_cyan !important;
   font-size: 2rem;
 }
 
 /* Background */
 body {
-  background-color: $light_purple;
+  background-color: $dark_cyan;
 }
 
 .slide {
-  color: $light_purple;
+  color: $dark_cyan;
   border-radius: 3px !important;
 
   figure {
@@ -43,29 +43,29 @@ section {
 
 /* Labels */
 .author {
-  color: $light_purple !important;
+  color: $orange !important;
 }
 
 .date {
-  color: $light_purple !important;
+  color: $orange !important;
 }
 
 /* reveal */
 .reveal {
   h1 {
-    color: $purple;
+    color: $darker_cyan;
     vertical-align: top !important;
     margin-bottom: 5% !important;
     font-size: 1.5em;
   }
   h2 {
-    color: $purple;
+    color: $darker_cyan;
     vertical-align: top !important;
     margin-bottom: 5% !important;
     font-size: 1.25em;
   }
-  .progress, .controls, strong {
-    color: $purple !important;
+  .progress, .controls {
+    color: $orange !important;
   }
   .progress {
     height: 1.5%;
@@ -77,6 +77,7 @@ section {
     margin: 2%;
     font-size: 2rem;
     background-color: initial;
+    color: $cyan;
     position: relative;
     right: unset;
     bottom: unset;
@@ -88,8 +89,8 @@ section {
   border-radius: 3px !important;
   background-position: 50% 85%;
   background-repeat: no-repeat;
-  background-size: 20%;
-  background-image: url(resources/markdown_logo.png);
+  background-size: 35%;
+  background-image: url(resources/front_logo.png);
 }
 
 /* Other elements */
@@ -112,4 +113,8 @@ section {
   float: right;
   z-index:-10;
   width:50%;
+}
+
+strong {
+  color: $orange; 
 }

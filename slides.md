@@ -1,87 +1,108 @@
 ---
-author: AutorName
-title: Title
-date: the date of your presentation
+author: Kim Aurore Biloni & Sergiy Goloviatinski
+title: Social Engineering
+date: 18.03.2019
 ---
 
 # Table des matières
 
-* What you need to install
-* Slide content
-* Slide with notes
-* Slide with image
-* Slide with two columns
-* Slide with code
-* Custom your slides
-* Sources
+// TODO
 
-# What you need to install
+# Introduction
 
-* pandoc
-* Any make tool (I'm using [npm make](https://www.npmjs.com/package/make))
-* Latex (miktex in my case)
-* Sass compiler ([Sass installation](https://sass-lang.com/install))
-* [Decktape](https://github.com/astefanutti/decktape) to export the slides in pdf
+* Manipulation psychologique
+* Abus de confiance
+* Exploiter l'erreur humaine
+* Attaque combinée
 
-# How to compile
+# Vecteurs utilisés
 
-* `make` generates the slides in html and pdf
-* `make slides` generate the slides only
-* `make compile-sccs` compile the scss files
-* `make clean` clean all generated content
-* `make export` generate and export the slides into pdf
-* `make pdf` only create pdf
-* `make script` convert the script.md into pdf
+* Vishing
+* Phishing
+* SMS
+* Usurpation d'identité
 
-# Slide content
+# Techniques utilisées
 
-_Create_ your slides with only **[Markdown](https://github.com/DavidAnson/markdownlint/blob/v0.12.0/doc/Rules.md)** !
+// TODO
 
-> So simple ☺
+# Pretexting
 
-# Slide with notes
+Création d'un scénario, de prétextes pour augmenter les chances de manipulation de la victime.
 
-Add your notes to help you remeber everything !
+Réduit les doutes et les suspicions.
+
+# Phishing
+
+* Usurpation d'identité
+* Mise en confiance
+* Récupérations de renseignements personnels
+
+---
+
+## Vishing
+
+**Hameçonnage par téléphone**
+
+//Avantage du téléphone ?
+
+> Appel à un service client pour modifier un mot de passe
 
 <aside class="notes">
-This content is only visible for the speaker using the reveal box (press `s` during slides show)
+Appeler la banque d'une personne et se faire passe pour sa femme. Simuler du stress environnant et un prétexte urgent pour changer un mot de passe.
 </aside>
 
-# Slide with image
+# Watering hole
 
-![Happy robot](resources/icon_happy_bot.png)
+**Point d'eau**
 
-# Slide with two column
+* Référence au lion et à la gazelle
+* Observation des habitudes des cibles
+* Mise en place de pièges par la suite
 
-<span class="left">
-    Left Content
-</span>
+<aside class="notes">
+Le prédateur ne va pas chercher sa proie mais va l'attendre à un endroid où il est sûr qu'elle ira. Le lion attend donc la gazelle lorsqu'elle s'abreuve tranquillement à un point d'eau et l'attaque donc au moment où elle a baissé sa garde.
+</aside>
 
-<span class="right">
-    Right content
-</span>
+# Baiting
 
-# Slide with code
+**Appâtage**
 
-```python
-if __name__=="__main__":
-    # What a code sample !
-    a = 3
-    b = 2
-    c = a + b
-    print(f"{a} + {b} = {c}")
-```
+Principe du cheval de Troie
 
-# Custom your slides
+> Distribution de clés USB infectées dans une entreprise
 
-Use sass to personalize your slides !
+# Exemple
 
-Take example from `app.scss` ;)
+Présentation du cas
 
-Also use `configure.html` to manage reveal.js settings !
+> Cas à touver
 
-# Sources
+---
 
-* [Reveal.js](https://github.com/hakimel/reveal.js/), Reveal.js Github
-* [icons8.com](https://icons8.com/icon/set/zoom-3d/nolan), If you need some icons
-* [pandoc.org](https://pandoc.org/index.html), Pandoc for compilation
+## Contexte de l'attaque
+
+---
+
+## But de l'attaque
+
+---
+
+## Techniques utilisés
+
+---
+
+# Mitigations
+
+**Comment se protéger de l'ingénierie social ?**
+
+* Sensibilisation
+* Formations
+* autre ?
+
+# Références
+
+* [TOP 10](https://resources.infosecinstitute.com/the-top-ten-most-famous-social-engineering-attacks/#gref)
+* [7 most famous attack](https://phoenixnap.com/blog/famous-social-engineering-attacks) // regarder celle de Kane Gamble
+* [Wikipédia](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)
+* [Image de titre](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwie48OKjYfhAhVSmbQKHZUkCOkQjRx6BAgBEAU&url=https%3A%2F%2Ffirestormcyber.com%2Fblogs%2Ff%2Fsocial-engineering-the-c-suite&psig=AOvVaw1U-tPINjzh5CbQcIluT4at&ust=1552840833817135)
