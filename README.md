@@ -1,5 +1,5 @@
-# slides_base
+# Présentation de social engineering
 
-Slides environment using reaveal.js and sass.
+Présentation réalisé en markdown puis compiler en html avec pandoc & reveal.js ! Aussi, il y a du scss et ça s'est jolie !
 
-Checkout the slides to learn how to use it ;)
+Si vous souhaitez en faire une, nous vous invitons à voir le répertoire suivant : <https://github.com/JolieKimy/slides_base>
