@@ -53,7 +53,7 @@ section {
   font-size: 1.25em;
 }
 .reveal .progress, .reveal .controls {
-  color: #f6993f !important;
+  color: #0FF !important;
 }
 .reveal .progress {
   height: 1.5%;

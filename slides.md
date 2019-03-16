@@ -17,10 +17,10 @@ date: 18.03.2019
 
 # Vecteurs utilisés
 
-* Phishing
-* Vishing
-* Smishing
-* Imposture
+* E-mail ou site frauduleux
+* Téléphone
+* SMS
+* En personne
 
 <aside class="notes">
 * E-mail ou site frauduleux
@@ -31,9 +31,15 @@ date: 18.03.2019
 
 # Phishing
 
-* Usurpation d'identité
-* Généralement e-mail ou site frauduleux
-* Récupérations de renseignements personnels
+**Hameçonnage**
+
+Souvent utilisé par les spams
+
+> Recopier un email envoyé par une entité reconnu
+
+<aside class="notes">
+
+</aside>
 
 ---
 

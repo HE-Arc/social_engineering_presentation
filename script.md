@@ -20,6 +20,8 @@ Nous allons préciser chacun de ses points.
 
 ## Phishing
 
+Le phishinge a commencé par utilisé les mails pour contacter les gens. Cela peut par exemple être un faux mail d'Apple demandant à l'utilisateur de changer de mot de passe afin de le récupérer sur un site presque identique à l'original.
+
 ## Vishing
 
 Le Vishing ou Voice Phishing utilise le téléphone comme vecteur de contact avec la cible.
