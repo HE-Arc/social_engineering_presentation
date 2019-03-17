@@ -35,11 +35,18 @@ body {
 
 section {
   height: 90%;
-  padding-left: 5% !important;
-  padding-right: 5% !important;
+  
+  // padding-left: 5% !important;
+  // padding-right: 5% !important;
   background-color: $body-bg;
   border-radius: 10px;
 }
+
+.slides{
+width:85% !important;
+}
+
+
 
 /* Labels */
 .author {
