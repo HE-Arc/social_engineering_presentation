@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* General */
 * {
   text-transform: initial !important;
@@ -72,6 +73,9 @@ section {
   right: unset;
   bottom: unset;
 }
+.reveal blockquote p {
+  color: #055 !important;
+}
 
 /* Defined slides */
 #title-slide {
@@ -80,6 +84,10 @@ section {
   background-repeat: no-repeat;
   background-size: 30%;
   background-image: url(resources/front_logo.png);
+}
+
+#techniques-utilisées ul > li > strong {
+  color: #0AA !important;
 }
 
 /* Other elements */

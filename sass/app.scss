@@ -46,8 +46,6 @@ section {
 width:85% !important;
 }
 
-
-
 /* Labels */
 .author {
   color: $orange !important;
@@ -89,6 +87,12 @@ width:85% !important;
     right: unset;
     bottom: unset;
   }
+
+  blockquote {
+    p {
+      color: $darker_cyan !important;
+    }
+  }
 }
 
 /* Defined slides */
@@ -98,6 +102,13 @@ width:85% !important;
   background-repeat: no-repeat;
   background-size: 30%;
   background-image: url(resources/front_logo.png);
+}
+
+#techniques-utilisées {
+  ul > li > strong {
+    color: $dark_cyan !important;
+    //text-decoration: underline;
+  }
 }
 
 /* Other elements */
