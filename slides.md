@@ -35,19 +35,21 @@ date: 18.03.2019
 
 Souvent utilisé par les spams
 
-> Recopier un email envoyé par une entité reconnu
+> Recopier un email envoyé par une entité reconnue
 
 <aside class="notes">
 
 </aside>
 
----
-
-## Vishing
+# Vishing
 
 **Hameçonnage par téléphone**
 
-//Avantage du téléphone ?
+Avantages: 
+
+- créer situation qui a l'air urgente 
+- faire entreprendre des actions assez rapidement,
+- techniques pour changer le numéro de téléphone quand on appelle
 
 > Appel à un service client pour modifier un mot de passe
 
@@ -55,9 +57,8 @@ Souvent utilisé par les spams
 Appeler la banque d'une personne et se faire passe pour sa femme. Simuler du stress environnant et un prétexte urgent pour changer un mot de passe.
 </aside>
 
----
 
-## Smishing
+# Smishing
 
 **Hameçonnage par SMS**
 
@@ -69,18 +70,17 @@ Appeler la banque d'une personne et se faire passe pour sa femme. Simuler du str
 
 </aside>
 
----
 
-## Imposture
+# Imposture
 
 **Être quelqu'un d'autre**
 
 Plus de confiance envers les inconnus
 
-> Prétendre faire signer une pétition
+> Prétendre faire signer une pétition, ou se déguiser en quelqu'un de confiance (policier p. ex)
 
 <aside class="notes">
-
+Exemple des "faux sourds" qui font signer des documents pour supporter la cause des sourds
 </aside>
 
 # Pretexting
@@ -115,19 +115,15 @@ Présentation du cas
 
 > Cas à touver
 
----
 
-## Contexte de l'attaque
+# Exemple - Contexte de l'attaque
 
----
 
-## But de l'attaque
+# Exemple - But de l'attaque
 
----
 
-## Techniques utilisés
+# Exemple - Techniques utilisés
 
----
 
 # Mitigations
 

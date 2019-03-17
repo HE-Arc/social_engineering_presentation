@@ -45,13 +45,13 @@ section {
 .reveal h1 {
   color: #055;
   vertical-align: top !important;
-  margin-bottom: 5% !important;
+  margin-bottom: 3% !important;
   font-size: 1.5em;
 }
 .reveal h2 {
   color: #055;
   vertical-align: top !important;
-  margin-bottom: 5% !important;
+  margin-bottom: 2% !important;
   font-size: 1.25em;
 }
 .reveal .progress, .reveal .controls {

@@ -1,7 +1,7 @@
 all: compile-scss slides
 
 slides:
-	pandoc -t revealjs -s -o slides.html slides.md  -V revealjs-url=https://revealjs.com -V css=slides.css --include-after-body=configure.html --slide-level 2
+	pandoc -t revealjs -s -o slides.html slides.md  -V revealjs-url=https://revealjs.com -V css=slides.css --include-after-body=configure.html
 
 compile-scss:
 	sass ./sass/app.scss ./slides.css
