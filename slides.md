@@ -38,7 +38,7 @@ Nous allons préciser chacun de ses points.
 
 </aside>
 
-# Phishing
+# Vecteurs utilisés - Phishing
 
 **Hameçonnage**
 
@@ -50,7 +50,7 @@ Souvent utilisé par les spams
 Le phishing consiste à utiliser les mails pour contacter les gens. Cela peut par exemple être un faux mail d'Apple demandant à l'utilisateur de changer de mot de passe afin de le récupérer sur un site le plus identique possible à l'original.
 </aside>
 
-# Vishing
+# Vecteurs utilisés - Vishing
 
 **Hameçonnage par téléphone**
 
@@ -71,11 +71,14 @@ Dans une vidéo que nous avons trouvé, une femme simule un environnement stress
 </aside>
 
 
-# Smishing
+# Vecteurs utilisés - Smishing
 
 **Hameçonnage par SMS**
 
-//Avantage du SMS?
+Avantage:
+
+- Numéro de téléphone rarement exposé publiquement sur internet
+- Donc peu de gens l'ont ⇨ impression de confiance
 
 > SMS d'une banque ou d'un concours avec un lien
 
@@ -83,10 +86,12 @@ Dans une vidéo que nous avons trouvé, une femme simule un environnement stress
 Le smishing est du phishing via SMS. On peut par exemple recevoir un SMS de la part de notre banque nous demandant de nous loguer à notre compte client mais cela peut aussi être l'annonce d'un gain du genre:
 
 "Vous avez gagné un bon H&M d'une valeur de 100CH. Récupérez votre carte cadeau via le lien suivant..."
+
+En Suisse romande, quand le SMS est en anglais/allemand on comprends vite que c'est une arnaque...
 </aside>
 
 
-# Imposture
+# Vecteurs utilisés - Imposture
 
 **Être quelqu'un d'autre**
 
@@ -95,7 +100,7 @@ Plus de confiance envers les inconnus
 > Prétendre faire signer une pétition, ou se déguiser en quelqu'un de confiance (policier p. ex)
 
 <aside class="notes">
-Exemple des "faux sourds" qui font signer des documents pour supporter la cause des sourds
+Exemple des "faux sourds" qui font signer des documents pour supporter la cause des sourds.
 
 L'imposture vise donc à changer d'identité lorsqu'on se présente physiquement à quelqu'un. L'avantage de cette technique est que l'on peut prétendre être n'importe qui. Si la personne ne nous connaît pas de base, elle aura beaucoup de mal à savoir que vous n'êtes pas ce que vous prétendez.
 
@@ -118,7 +123,7 @@ Réduit les doutes et les suspicions.
 * Mise en place de pièges par la suite
 
 <aside class="notes">
-Le prédateur ne va pas chercher sa proie mais va l'attendre à un endroid où il est sûr qu'elle ira. Le lion attend donc la gazelle lorsqu'elle s'abreuve tranquillement à un point d'eau et l'attaque donc au moment où elle a baissé sa garde.
+Le prédateur ne va pas chercher sa proie mais va l'attendre à un endroit où il est sûr qu'elle ira. Le lion attend donc la gazelle lorsqu'elle s'abreuve tranquillement à un point d'eau et l'attaque donc au moment où elle a baissé sa garde.
 </aside>
 
 # Baiting
@@ -151,7 +156,6 @@ Présentation du cas
 
 * Sensibilisation
 * Formations
-* autre ?
 
 # Références
 
