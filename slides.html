@@ -41,7 +41,13 @@
 
 <section id="table-des-matières" class="slide level1">
 <h1>Table des matières</h1>
-<p>// TODO</p>
+<ul>
+<li>Introduction</li>
+<li>Vecteurs utilisés</li>
+<li>Quelques techniques</li>
+<li>Exemple</li>
+<li>Mitigations possibles</li>
+</ul>
 </section>
 <section id="introduction" class="slide level1">
 <h1>Introduction</h1>
@@ -49,7 +55,7 @@
 <li>Manipulation psychologique</li>
 <li>Abus de confiance</li>
 <li>Exploiter l’erreur humaine</li>
-<li>Attaque combinée</li>
+<li>Attaque combinée avec autres moyens de hacking</li>
 </ul>
 <aside class="notes">
 L’ingénierie sociale est un ensemble de techniques permettant d’obtenir des informations dans le but d’attaquer une personne ou une entreprise. Elle utilise notamment la manipulation psychologique et le principe que la plus grande vulnérabilité d’un système est l’humain. Elle vise à abuser de la confiance d’une personne pour obtenir des informations sensibles et utiles à des attaques d’une plus grande envergure. Cette attaque seule ne vise qu’à obtenir des renseignements. Cependant, elle est très puissantes lorsqu’elle est combinée à d’autres types d’attaques informatiques.
@@ -91,7 +97,7 @@ Le phishing consiste à utiliser les mails pour contacter les gens. Cela peut pa
 <p>Avantages:</p>
 <ul>
 <li>créer situation qui a l’air urgente</li>
-<li>faire entreprendre des actions assez rapidement,</li>
+<li>faire entreprendre des actions assez rapidement</li>
 <li>techniques pour changer le numéro de téléphone quand on appelle</li>
 </ul>
 <blockquote>
@@ -160,19 +166,39 @@ Le prédateur ne va pas chercher sa proie mais va l’attendre à un endroit où
 </section>
 <section id="exemple" class="slide level1">
 <h1>Exemple</h1>
-<p>Présentation du cas</p>
-<blockquote>
-<p>Cas à touver</p>
-</blockquote>
-</section>
-<section id="exemple---contexte-de-lattaque" class="slide level1">
-<h1>Exemple - Contexte de l’attaque</h1>
+<p>Piratage chez Sony Pictures (2013-2014)</p>
+<ul>
+<li>Effectué par groupe nord-coréen “Guardians of Peace”</li>
+</ul>
 </section>
 <section id="exemple---but-de-lattaque" class="slide level1">
 <h1>Exemple - But de l’attaque</h1>
+<ul>
+<li>Empêcher la sortie au cinéma d’un film parlant de l’assasinat de Kim Jong-Un</li>
+<li>Pour ce faire, récupérer des informations confidientielles et menacer Sony de les publier s’ils sortent ce film</li>
+</ul>
 </section>
 <section id="exemple---techniques-utilisés" class="slide level1">
 <h1>Exemple - Techniques utilisés</h1>
+<ul>
+<li>Récupération des noms d’employés grâce à LinkedIn</li>
+<li>Mail envoyé à beaucoup d’employés ayant des accés priviligiés</li>
+<li>Le mail proposait de vérifier son Apple ID après un soi-disant accès non autorisé</li>
+<li>Il a suffit qu’un employé aie le même mot de passe que dans le Microsoft’s System Center Configuration Manager (SCCM)</li>
+<li>Utilisation de l’accès au SCCM pour distribuer des logiciels malveillants sur les ordinateurs chez Sony</li>
+</ul>
+</section>
+<section id="exemple---conséquences" class="slide level1">
+<h1>Exemple - Conséquences</h1>
+<ul>
+<li>Le mail qui menacait de publier les informations récuperés dans l’attaque a fini dans les dossier Spam et est passé inaperçu</li>
+<li>Donc le groupe de hacker a publié des informations compromettantes comme:
+<ul>
+<li>Les salaires de certains acteurs, ce qui a relevé une inégalité de salaire entre hommes et femmes pour des rôles du même niveau</li>
+<li>E-mails avec contenu embarassant et raciste envoyé par des cadres</li>
+<li>30’000 documents publiés sur WikiLeaks</li>
+</ul></li>
+</ul>
 </section>
 <section id="mitigations" class="slide level1">
 <h1>Mitigations</h1>
@@ -180,15 +206,18 @@ Le prédateur ne va pas chercher sa proie mais va l’attendre à un endroit où
 <ul>
 <li>Sensibilisation</li>
 <li>Formations</li>
+<li>Protocoles stricts pour traiter informations sensibles</li>
 </ul>
 </section>
 <section id="références" class="slide level1">
 <h1>Références</h1>
 <ul>
 <li><a href="https://resources.infosecinstitute.com/the-top-ten-most-famous-social-engineering-attacks/#gref">TOP 10</a></li>
-<li><a href="https://phoenixnap.com/blog/famous-social-engineering-attacks">7 most famous attack</a> // regarder celle de Kane Gamble</li>
+<li><a href="https://phoenixnap.com/blog/famous-social-engineering-attacks">7 most famous attack</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms">Wikipédia</a></li>
 <li><a href="https://fr.wikipedia.org/wiki/Attaque_de_point_d%27eau">Attaque de point d’eau</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sony_Pictures_hack">Sony Pictures hack, contexte et but</a></li>
+<li><a href="https://www.computerworld.com/article/2913805/sony-hackers-targeted-employees-with-fake-apple-id-emails.html">Sony Pictures hack, explication phishing</a></li>
 <li><a href="https://www.google.com/url?sa=i&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwie48OKjYfhAhVSmbQKHZUkCOkQjRx6BAgBEAU&amp;url=https%3A%2F%2Ffirestormcyber.com%2Fblogs%2Ff%2Fsocial-engineering-the-c-suite&amp;psig=AOvVaw1U-tPINjzh5CbQcIluT4at&amp;ust=1552840833817135">Image de titre</a></li>
 </ul>
 </section>

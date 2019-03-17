@@ -6,14 +6,18 @@ date: 18.03.2019
 
 # Table des matières
 
-// TODO
+* Introduction
+* Vecteurs utilisés
+* Quelques techniques
+* Exemple
+* Mitigations possibles
 
 # Introduction
 
 * Manipulation psychologique
 * Abus de confiance
 * Exploiter l'erreur humaine
-* Attaque combinée
+* Attaque combinée avec autres moyens de hacking
 
 <aside class="notes">
 L'ingénierie sociale est un ensemble de techniques permettant d'obtenir des informations dans le but d'attaquer une personne ou une entreprise. Elle utilise notamment la manipulation psychologique et le principe que la plus grande vulnérabilité d'un système est l'humain. Elle vise à abuser de la confiance d'une personne pour obtenir des informations sensibles et utiles à des attaques d'une plus grande envergure. Cette attaque seule ne vise qu'à obtenir des renseignements. Cependant, elle est très puissantes lorsqu'elle est combinée à d'autres types d'attaques informatiques.
@@ -57,7 +61,7 @@ Le phishing consiste à utiliser les mails pour contacter les gens. Cela peut pa
 Avantages: 
 
 - créer situation qui a l'air urgente 
-- faire entreprendre des actions assez rapidement,
+- faire entreprendre des actions assez rapidement
 - techniques pour changer le numéro de téléphone quand on appelle
 
 > Appel à un service client pour modifier un mot de passe
@@ -136,19 +140,30 @@ Principe du cheval de Troie
 
 # Exemple
 
-Présentation du cas
+Piratage chez Sony Pictures (2013-2014)
 
-> Cas à touver
-
-
-# Exemple - Contexte de l'attaque
-
+* Effectué par groupe nord-coréen "Guardians of Peace"
 
 # Exemple - But de l'attaque
 
+* Empêcher la sortie au cinéma d'un film parlant de l'assasinat de Kim Jong-Un
+* Pour ce faire, récupérer des informations confidientielles et menacer Sony de les publier s'ils sortent ce film
 
 # Exemple - Techniques utilisés
 
+* Récupération des noms d'employés grâce à LinkedIn
+* Mail envoyé à beaucoup d'employés ayant des accés priviligiés
+* Le mail proposait de vérifier son Apple ID après un soi-disant accès non autorisé
+* Il a suffit qu'un employé aie le même mot de passe que dans le Microsoft's System Center Configuration Manager (SCCM)
+* Utilisation de l'accès au SCCM pour distribuer des logiciels malveillants sur les ordinateurs chez Sony
+
+# Exemple - Conséquences
+
+* Le mail qui menacait de publier les informations récuperés dans l'attaque a fini dans les dossier Spam et est passé inaperçu
+* Donc le groupe de hacker a publié des informations compromettantes comme:
+    * Les salaires de certains acteurs, ce qui a relevé une inégalité de salaire entre hommes et femmes pour des rôles du même niveau
+    * E-mails avec contenu embarassant et raciste envoyé par des cadres
+    * 30'000 documents publiés sur WikiLeaks
 
 # Mitigations
 
@@ -156,11 +171,14 @@ Présentation du cas
 
 * Sensibilisation
 * Formations
+* Protocoles stricts pour traiter informations sensibles
 
 # Références
 
 * [TOP 10](https://resources.infosecinstitute.com/the-top-ten-most-famous-social-engineering-attacks/#gref)
-* [7 most famous attack](https://phoenixnap.com/blog/famous-social-engineering-attacks) // regarder celle de Kane Gamble
+* [7 most famous attack](https://phoenixnap.com/blog/famous-social-engineering-attacks)
 * [Wikipédia](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)
 * [Attaque de point d'eau](https://fr.wikipedia.org/wiki/Attaque_de_point_d%27eau)
+* [Sony Pictures hack, contexte et but](https://en.wikipedia.org/wiki/Sony_Pictures_hack)
+* [Sony Pictures hack, explication phishing](https://www.computerworld.com/article/2913805/sony-hackers-targeted-employees-with-fake-apple-id-emails.html)
 * [Image de titre](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwie48OKjYfhAhVSmbQKHZUkCOkQjRx6BAgBEAU&url=https%3A%2F%2Ffirestormcyber.com%2Fblogs%2Ff%2Fsocial-engineering-the-c-suite&psig=AOvVaw1U-tPINjzh5CbQcIluT4at&ust=1552840833817135)
